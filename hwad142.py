@@ -15,7 +15,7 @@ def parametrized_logger_decor(path):
                            f'{kwargs}\n'
                            f'Результат: {result}')
 
-            return file
+            return result
 
         return new_foo
 
