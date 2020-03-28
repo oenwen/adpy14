@@ -13,7 +13,7 @@ def logger_decor(foo):
                        f'Аргументы: {args}\n'
                        f'Результат: {result}')
 
-        return file
+        return result
 
     return new_foo
 
